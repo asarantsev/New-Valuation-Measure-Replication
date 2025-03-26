@@ -5,4 +5,4 @@ I explained in brief this previous work in the blog post https://my-finance.org/
 
 replicate.py is the replication of my results with CPI data for December of each year rather than the January of the following year, and for S&P 500 data from the last trading day of the year, rather than January daily average of the following year. norm-idy.py is the version of this analysis with division of total returns minusd earnnings growth.
 
-Added later: new-measure.py is the simulator version of this, allowing you to choose the averaging window between 1 and 10 years, and nominal vs real. We do not have volatility factor in the main regression. But this fsactor is statistically significant, with p < 1% from the Student T-test. 
+Added later: new-measure.py is the simulator version of this, allowing you to choose the averaging window between 1 and 10 years, and nominal vs real. We do not have volatility factor in the main regression. But this fsactor is statistically significant, with p < 1% from the Student T-test. https://my-finance.org/2025/03/26/annual-simulator-with-volatility-and-the-new-valuation-measure-of-sp-500/
