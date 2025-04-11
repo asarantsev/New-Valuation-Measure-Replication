@@ -8,3 +8,5 @@ replicate.py is the replication of my results with CPI data for December of each
 Added later: new-measure.py is the simulator version of this, allowing you to choose the averaging window between 1 and 10 years, and nominal vs real. We do not have volatility factor in the main regression. But this fsactor is statistically significant, with p < 1% from the Student T-test. https://my-finance.org/2025/03/26/annual-simulator-with-volatility-and-the-new-valuation-measure-of-sp-500/
 
 Added later: compare-bubble-logyield.py shows the bubble (the new valuation measure) is better than the log yield as returns predictor. https://my-finance.org/2025/03/29/using-both-new-valuation-measure-and-cape/
+
+Update: bubble-selection.py evaluates the models for nominal and real versions, with and without volatility, with averaging windows from 1 to 10 years. https://my-finance.org/2025/04/10/does-the-new-valuation-measure-need-volatility/
